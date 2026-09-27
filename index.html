@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="AUREVIA — Contemporary Fashion, Quietly Distinct. Discover considered silhouettes, refined textures and modern luxury."
+    >
+
+    <meta
+        name="theme-color"
+        content="#f4f0e8"
+    >
+
+    <title>AUREVIA — Contemporary Fashion, Quietly Distinct.</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================================================
+         PAGE LOADER
+    ========================================================== -->
+    <div class="page-loader" id="pageLoader" aria-hidden="true">
+        <div class="loader-logo">AUREVIA</div>
+    </div>
+
+
+    <!-- =========================================================
+         HEADER / NAVIGATION
+    ========================================================== -->
+    <header class="site-header" id="siteHeader">
+
+        <div class="nav-container">
+
+            <a
+                href="#home"
+                class="brand-logo"
+                aria-label="AUREVIA home"
+            >
+                AUREVIA
+            </a>
+
+            <nav
+                class="desktop-navigation"
+                aria-label="Main navigation"
+            >
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#collection" class="nav-link">Collection</a>
+                <a href="#lookbook" class="nav-link">Lookbook</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+
+                <button
+                    class="icon-button"
+                    id="searchButton"
+                    type="button"
+                    aria-label="Open search"
+                    title="Search"
+                >
+                    <svg
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                    >
+                        <circle cx="11" cy="11" r="6.5"></circle>
+                        <path d="M16 16L21 21"></path>
+                    </svg>
+                </button>
+
+                <button
+                    class="icon-button bag-button"
+                    id="bagButton"
+                    type="button"
+                    aria-label="Shopping bag"
+                    title="Shopping bag"
+                >
+                    <svg
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                    >
+                        <path d="M5 8h14l-1 13H6L5 8Z"></path>
+                        <path d="M9 8V6a3 3 0 0 1 6 0v2"></path>
+                    </svg>
+
+                    <span class="bag-count" id="bagCount">0</span>
+                </button>
+
+                <button
+                    class="menu-toggle"
+                    id="menuToggle"
+                    type="button"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="mobileNavigation"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+            </div>
+        </div>
+
+
+        <!-- Mobile navigation -->
+        <nav
+            class="mobile-navigation"
+            id="mobileNavigation"
+            aria-label="Mobile navigation"
+        >
+            <a href="#home" class="mobile-nav-link">Home</a>
+            <a href="#collection" class="mobile-nav-link">Collection</a>
+            <a href="#lookbook" class="mobile-nav-link">Lookbook</a>
+            <a href="#about" class="mobile-nav-link">About</a>
+            <a href="#contact" class="mobile-nav-link">Contact</a>
+
+            <div class="mobile-nav-bottom">
+                <span>Contemporary Fashion</span>
+                <span>Quietly Distinct.</span>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- =====================================================
+             HERO
+        ====================================================== -->
+        <section class="hero" id="home">
+
+            <div class="hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=2200&q=90"
+                    alt="Editorial fashion scene featuring contemporary clothing"
+                >
+            </div>
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <p class="eyebrow light-text reveal">
+                    AUTUMN / WINTER 2026
+                </p>
+
+                <h1 class="hero-title reveal">
+                    The art of<br>
+                    <em>quiet presence.</em>
+                </h1>
+
+                <p class="hero-description reveal">
+                    Refined silhouettes, tactile layers and thoughtful
+                    details for a wardrobe that speaks without shouting.
+                </p>
+
+                <div class="hero-actions reveal">
+
+                    <a
+                        href="#collection"
+                        class="button button-light"
+                    >
+                        Explore Collection
+                        <span>↗</span>
+                    </a>
+
+                    <a
+                        href="#about"
+                        class="text-button light-text"
+                    >
+                        Discover AUREVIA
+                        <span>→</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-bottom">
+
+                <span>01 — 06</span>
+
+                <div class="hero-scroll">
+                    <span>Scroll to discover</span>
+                    <span class="scroll-line"></span>
+                </div>
+
+                <span>Paris / London / Everywhere</span>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             INTRODUCTION
+        ====================================================== -->
+        <section class="intro section-padding">
+
+            <div class="section-label">
+                <span>01</span>
+                <span>THE AUREVIA EDIT</span>
+            </div>
+
+            <div class="intro-content reveal">
+
+                <p class="intro-kicker">
+                    A wardrobe of deliberate choices.
+                </p>
+
+                <h2>
+                    Contemporary pieces
+                    <em>with a quieter point of view.</em>
+                </h2>
+
+                <p class="intro-text">
+                    AUREVIA is a contemporary fashion house created for those who appreciate quiet elegance.
+                    We believe true luxury lies in simplicity, intention, and thoughtful detail.
+                    Each piece is designed with refined silhouettes, timeless tones, and effortless movement in mind.
+                    Our collections balance modern expression with a sense of enduring sophistication.
+                    From carefully considered fabrics to distinctive finishing touches, every detail has a purpose.
+                    We create pieces that feel personal, versatile, and beautifully understated.
+
+                    AUREVIA creates modern essentials through considered
+                    proportion, natural movement and an appreciation for
+                    the details that reveal themselves slowly.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             COLLECTION
+        ====================================================== -->
+        <section
+            class="collection section-padding"
+            id="collection"
+        >
+
+            <div class="section-heading reveal">
+
+                <div>
+                    <span class="section-number">02</span>
+                    <p class="eyebrow">THE SEASONAL EDIT</p>
+                </div>
+
+                <h2>THE NEW<br><em>COLLECTION</em></h2>
+
+                <a
+                    href="#collection"
+                    class="arrow-link"
+                >
+                    View all pieces
+                    <span>↗</span>
+                </a>
+
+            </div>
+
+
+            <div class="product-grid">
+
+                <!-- Product 1 -->
+                <article
+                    class="product-card reveal"
+                    data-product="Solenne Silk Dress"
+                >
+
+                    <div class="product-image">
+
+                        <span class="product-tag">NEW</span>
+
+                        <img
+                            src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=1000&q=85"
+                            alt="Solenne Silk Dress in an elegant neutral tone"
+                            loading="lazy"
+                        >
+
+                        <div class="product-hover">
+
+                            <button
+                                class="product-view"
+                                type="button"
+                            >
+                                View Piece
+                                <span>↗</span>
+                            </button>
+
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+
+                        <div>
+                            <h3>Solenne Silk Dress</h3>
+                            <p>Silk / Evening</p>
+                        </div>
+
+                        <span class="product-price">$485</span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 2 -->
+                <article
+                    class="product-card reveal"
+                    data-product="Aurelia Structured Coat"
+                >
+
+                    <div class="product-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1000&q=85"
+                            alt="Aurelia structured contemporary coat"
+                            loading="lazy"
+                        >
+
+                        <div class="product-hover">
+
+                            <button
+                                class="product-view"
+                                type="button"
+                            >
+                                View Piece
+                                <span>↗</span>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <div>
+                            <h3>Aurelia Structured Coat</h3>
+                            <p>Wool / Outerwear</p>
+                        </div>
+
+                        <span class="product-price">$690</span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 3 -->
+                <article
+                    class="product-card reveal"
+                    data-product="Nocturne Tailored Set"
+                >
+
+                    <div class="product-image">
+
+                        <span class="product-tag">EDIT</span>
+
+                        <img
+                            src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=85"
+                            alt="Nocturne tailored fashion set"
+                            loading="lazy"
+                        >
+
+                        <div class="product-hover">
+
+                            <button
+                                class="product-view"
+                                type="button"
+                            >
+                                View Piece
+                                <span>↗</span>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <div>
+                            <h3>Nocturne Tailored Set</h3>
+                            <p>Wool Blend / Tailoring</p>
+                        </div>
+
+                        <span class="product-price">$575</span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 4 -->
+                <article
+                    class="product-card reveal"
+                    data-product="Sera Draped Blouse"
+                >
+
+                    <div class="product-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1000&q=85"
+                            alt="Sera draped blouse in a refined fashion editorial"
+                            loading="lazy"
+                        >
+
+                        <div class="product-hover">
+
+                            <button
+                                class="product-view"
+                                type="button"
+                            >
+                                View Piece
+                                <span>↗</span>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <div>
+                            <h3>Sera Draped Blouse</h3>
+                            <p>Viscose / Tops</p>
+                        </div>
+
+                        <span class="product-price">$265</span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             EDITORIAL STORY
+        ====================================================== -->
+        <section
+            class="editorial section-padding"
+            id="about"
+        >
+
+            <div class="section-label">
+                <span>03</span>
+                <span>OUR PERSPECTIVE</span>
+            </div>
+
+
+            <div class="editorial-layout">
+
+                <div class="editorial-main-image reveal">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1500&q=90"
+                        alt="Fashion editorial portrait in a sophisticated setting"
+                        loading="lazy"
+                    >
+
+                    <span class="image-caption">
+                        AUREVIA / FRAME 01
+                    </span>
+
+                </div>
+
+
+                <div class="editorial-copy reveal">
+
+                    <span class="editorial-index">01 / 03</span>
+
+                    <h2>
+                        Beauty lives<br>
+                        <em>in restraint.</em>
+                    </h2>
+
+                    <p>
+                        We believe the most memorable pieces are not
+                        defined by a season. They are defined by how they
+                        make you move, how they feel against the skin and
+                        how naturally they become part of your life.
+                    </p>
+
+                    <p>
+                        AUREVIA is an ongoing study of proportion,
+                        material and atmosphere — creating clothing that
+                        feels current today and considered tomorrow.
+                    </p>
+
+                    <a
+                        href="#philosophy"
+                        class="button button-dark"
+                    >
+                        Read Our Story
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+
+                <div class="editorial-small-image reveal">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=900&q=85"
+                        alt="Minimal contemporary fashion detail"
+                        loading="lazy"
+                    >
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             FEATURED PIECE
+        ====================================================== -->
+        <section class="featured-piece">
+
+            <div class="featured-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=2200&q=90"
+                    alt="AUREVIA signature coat featured in an editorial composition"
+                    loading="lazy"
+                >
+
+            </div>
+
+            <div class="featured-overlay"></div>
+
+            <div class="featured-content reveal">
+
+                <span class="eyebrow light-text">
+                    SIGNATURE PIECE / 001
+                </span>
+
+                <h2>
+                    The <em>Vela</em><br>
+                    Longline Coat
+                </h2>
+
+                <p>
+                    Sculpted shoulders, fluid wool and an elongated
+                    silhouette designed for movement.
+                </p>
+
+                <div class="featured-details">
+
+                    <span>$720</span>
+
+                    <a
+                        href="#collection"
+                        class="button button-light"
+                    >
+                        Discover Piece
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             LOOKBOOK
+        ====================================================== -->
+        <section
+            class="lookbook section-padding"
+            id="lookbook"
+        >
+
+            <div class="section-heading lookbook-heading reveal">
+
+                <div>
+                    <span class="section-number">04</span>
+                    <p class="eyebrow">VISUAL JOURNAL</p>
+                </div>
+
+                <h2>
+                    THE<br>
+                    <em>LOOKBOOK</em>
+                </h2>
+
+                <p class="heading-description">
+                    A visual study of form, texture, light and the
+                    spaces between them.
+                </p>
+
+            </div>
+
+
+            <div class="lookbook-grid">
+
+                <figure class="lookbook-item lookbook-item-large reveal">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1400&q=90"
+                        alt="AUREVIA lookbook fashion portrait"
+                        loading="lazy"
+                    >
+
+                    <figcaption>01 / SILHOUETTE</figcaption>
+
+                </figure>
+
+
+                <figure class="lookbook-item lookbook-item-small reveal">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1000&q=85"
+                        alt="Contemporary fashion clothing in neutral tones"
+                        loading="lazy"
+                    >
+
+                    <figcaption>02 / MOVEMENT</figcaption>
+
+                </figure>
+
+
+                <figure class="lookbook-item lookbook-item-medium reveal">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=1200&q=85"
+                        alt="Elegant fashion editorial look"
+                        loading="lazy"
+                    >
+
+                    <figcaption>03 / TEXTURE</figcaption>
+
+                </figure>
+
+
+                <figure class="lookbook-item lookbook-item-tall reveal">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1100&q=90"
+                        alt="Tailored contemporary fashion lookbook"
+                        loading="lazy"
+                    >
+
+                    <figcaption>04 / STRUCTURE</figcaption>
+
+                </figure>
+
+
+                <figure class="lookbook-item lookbook-item-wide reveal">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1500&q=90"
+                        alt="Editorial outerwear fashion photograph"
+                        loading="lazy"
+                    >
+
+                    <figcaption>05 / PRESENCE</figcaption>
+
+                </figure>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             PHILOSOPHY
+        ====================================================== -->
+        <section
+            class="philosophy section-padding"
+            id="philosophy"
+        >
+
+            <div class="section-label">
+                <span>05</span>
+                <span>THE AUREVIA PHILOSOPHY</span>
+            </div>
+
+
+            <div class="philosophy-intro reveal">
+
+                <span class="eyebrow">
+                    OUR APPROACH
+                </span>
+
+                <h2>
+                    Designed with intention.<br>
+                    <em>Made to be remembered.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="principles-grid">
+
+                <article class="principle reveal">
+
+                    <span class="principle-number">01</span>
+
+                    <div class="principle-icon">
+                        ◇
+                    </div>
+
+                    <h3>Intentional Design</h3>
+
+                    <p>
+                        Every line has a purpose. We refine proportion,
+                        silhouette and detail until only what matters
+                        remains.
+                    </p>
+
+                </article>
+
+
+                <article class="principle reveal">
+
+                    <span class="principle-number">02</span>
+
+                    <div class="principle-icon">
+                        ○
+                    </div>
+
+                    <h3>Considered Craft</h3>
+
+                    <p>
+                        We choose materials for their character and
+                        longevity, creating pieces designed to be lived
+                        in rather than simply displayed.
+                    </p>
+
+                </article>
+
+
+                <article class="principle reveal">
+
+                    <span class="principle-number">03</span>
+
+                    <div class="principle-icon">
+                        △
+                    </div>
+
+                    <h3>Timeless Expression</h3>
+
+                    <p>
+                        Trends may inform us, but they do not define us.
+                        Our pieces are designed to retain their relevance
+                        beyond a single season.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             TESTIMONIALS
+        ====================================================== -->
+        <section class="testimonials section-padding">
+
+            <div class="section-heading reveal">
+
+                <div>
+                    <span class="section-number">06</span>
+                    <p class="eyebrow">WORDS & IMPRESSIONS</p>
+                </div>
+
+                <h2>
+                    QUIETLY<br>
+                    <em>ADMIRED.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="testimonial-grid">
+
+                <article class="testimonial reveal">
+
+                    <span class="quote-mark">“</span>
+
+                    <blockquote>
+                        The kind of clothing that makes getting dressed
+                        feel effortless. Every detail feels considered.
+                    </blockquote>
+
+                    <div class="testimonial-person">
+                        <span class="testimonial-line"></span>
+                        <div>
+                            <strong>Elena M.</strong>
+                            <small>Style Editor</small>
+                        </div>
+                    </div>
+
+                </article>
+
+
+                <article class="testimonial reveal">
+
+                    <span class="quote-mark">“</span>
+
+                    <blockquote>
+                        A beautiful balance between structure and ease.
+                        The pieces have presence without ever feeling loud.
+                    </blockquote>
+
+                    <div class="testimonial-person">
+                        <span class="testimonial-line"></span>
+                        <div>
+                            <strong>Amelia R.</strong>
+                            <small>Creative Director</small>
+                        </div>
+                    </div>
+
+                </article>
+
+
+                <article class="testimonial reveal">
+
+                    <span class="quote-mark">“</span>
+
+                    <blockquote>
+                        AUREVIA feels like discovering a wardrobe you
+                        already knew you wanted.
+                    </blockquote>
+
+                    <div class="testimonial-person">
+                        <span class="testimonial-line"></span>
+                        <div>
+                            <strong>Clara V.</strong>
+                            <small>Architect</small>
+                        </div>
+                    </div>
+
+                </article>
+
+            </div>
+
+            <p class="testimonial-note">
+                Fictional testimonials created for the AUREVIA concept.
+            </p>
+
+        </section>
+
+
+        <!-- =====================================================
+             NEWSLETTER
+        ====================================================== -->
+        <section class="newsletter section-padding">
+
+            <div class="newsletter-inner reveal">
+
+                <span class="eyebrow">
+                    THE AUREVIA LETTER
+                </span>
+
+                <h2>
+                    A quieter way<br>
+                    <em>to stay inspired.</em>
+                </h2>
+
+                <p>
+                    Receive new collection notes, editorial stories and
+                    occasional invitations from AUREVIA.
+                </p>
+
+
+                <form
+                    class="newsletter-form"
+                    id="newsletterForm"
+                    novalidate
+                >
+
+                    <div class="input-wrapper">
+
+                        <label
+                            for="email"
+                            class="sr-only"
+                        >
+                            Email address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Your email address"
+                            autocomplete="email"
+                            required
+                        >
+
+                        <button
+                            type="submit"
+                            aria-label="Subscribe to newsletter"
+                        >
+                            Subscribe
+                            <span>↗</span>
+                        </button>
+
+                    </div>
+
+                    <p
+                        class="form-message"
+                        id="formMessage"
+                        role="status"
+                        aria-live="polite"
+                    ></p>
+
+                </form>
+
+
+                <span class="newsletter-note">
+                    No noise. Just considered notes. Unsubscribe anytime.
+                </span>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================================================
+         FOOTER
+    ========================================================== -->
+    <footer
+        class="site-footer"
+        id="contact"
+    >
+
+        <div class="footer-top">
+
+            <div class="footer-brand">
+
+                <a
+                    href="#home"
+                    class="footer-logo"
+                >
+                    AUREVIA
+                </a>
+
+                <p>
+                    Contemporary fashion,<br>
+                    quietly distinct.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Explore</h3>
+
+                <a href="#collection">Collection</a>
+                <a href="#lookbook">Lookbook</a>
+                <a href="#about">Our Story</a>
+                <a href="#philosophy">Philosophy</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Connect</h3>
+
+                <a
+                    href="https://instagram.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Instagram
+                </a>
+
+                <a
+                    href="https://pinterest.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Pinterest
+                </a>
+
+                <a
+                    href="https://www.linkedin.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    LinkedIn
+                </a>
+
+                <a href="mailto:hello@aurevia.example">
+                    hello@aurevia.example
+                </a>
+
+            </div>
+
+
+            <div class="footer-column footer-newsletter">
+
+                <h3>Stay close</h3>
+
+                <p>
+                    Join the AUREVIA letter for new releases and
+                    editorial notes.
+                </p>
+
+                <a
+                    href="#newsletter"
+                    class="footer-arrow"
+                    id="footerNewsletterLink"
+                >
+                    Join newsletter
+                    <span>↗</span>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 AUREVIA. Fictional fashion concept.
+            </span>
+
+            <div class="footer-bottom-links">
+                <a href="#home">Privacy</a>
+                <a href="#home">Terms</a>
+                <a href="#home">Accessibility</a>
+            </div>
+
+            <span>
+                Crafted with intention.
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================================================
+         SEARCH MODAL
+    ========================================================== -->
+    <div
+        class="search-modal"
+        id="searchModal"
+        aria-hidden="true"
+    >
+
+        <div class="search-modal-inner">
+
+            <button
+                class="close-modal"
+                id="closeSearch"
+                type="button"
+                aria-label="Close search"
+            >
+                ×
+            </button>
+
+            <span class="eyebrow">
+                SEARCH AUREVIA
+            </span>
+
+            <form
+                class="search-form"
+                id="searchForm"
+            >
+
+                <label
+                    for="searchInput"
+                    class="sr-only"
+                >
+                    Search
+                </label>
+
+                <input
+                    type="search"
+                    id="searchInput"
+                    placeholder="Search pieces, stories..."
+                    autocomplete="off"
+                >
+
+                <button
+                    type="submit"
+                    aria-label="Submit search"
+                >
+                    ↗
+                </button>
+
+            </form>
+
+            <p
+                class="search-message"
+                id="searchMessage"
+            ></p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================================
+         PRODUCT MODAL
+    ========================================================== -->
+    <div
+        class="product-modal"
+        id="productModal"
+        aria-hidden="true"
+    >
+
+        <div class="product-modal-card">
+
+            <button
+                class="close-modal product-close"
+                id="closeProduct"
+                type="button"
+                aria-label="Close product"
+            >
+                ×
+            </button>
+
+            <div class="modal-product-image">
+
+                <img
+                    id="modalProductImage"
+                    src=""
+                    alt=""
+                >
+
+            </div>
+
+            <div class="modal-product-content">
+
+                <span class="eyebrow">
+                    AUREVIA / THE COLLECTION
+                </span>
+
+                <h2 id="modalProductName">
+                    Product
+                </h2>
+
+                <p id="modalProductCategory">
+                    Category
+                </p>
+
+                <strong id="modalProductPrice">
+                    $000
+                </strong>
+
+                <p class="modal-product-description">
+                    A considered AUREVIA piece created with refined
+                    materials, modern proportion and an understated
+                    sense of presence.
+                </p>
+
+                <button
+                    class="button button-dark modal-add-button"
+                    id="addToBagButton"
+                    type="button"
+                >
+                    Add to Bag
+                    <span>+</span>
+                </button>
+
+                <p
+                    class="modal-bag-message"
+                    id="modalBagMessage"
+                    role="status"
+                    aria-live="polite"
+                ></p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================================
+         BAG TOAST
+    ========================================================== -->
+    <div
+        class="bag-toast"
+        id="bagToast"
+        role="status"
+        aria-live="polite"
+    >
+        <span class="toast-icon">✓</span>
+        <span id="toastText">Piece added to your bag.</span>
+    </div>
+
+
+    <!-- =========================================================
+         BACK TO TOP
+    ========================================================== -->
+    <button
+        class="back-to-top"
+        id="backToTop"
+        type="button"
+        aria-label="Back to top"
+    >
+        ↑
+    </button>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
